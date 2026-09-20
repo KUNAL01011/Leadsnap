@@ -1,10 +1,10 @@
-# 🟡 LeadSnap – Chrome Extension
+# LeadSnap – Chrome Extension
 
 **Snap business info from Google Maps → Build your lead list → Export to CSV or HTML**
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 leadsnap-extension/
@@ -25,7 +25,7 @@ leadsnap-extension/
 
 ---
 
-## 🚀 How to Install in Chrome (5 Steps)
+## How to Install in Chrome (5 Steps)
 
 1. **Open Chrome** and go to: `chrome://extensions`
 
@@ -35,13 +35,13 @@ leadsnap-extension/
 
 4. **Select this folder**: `leadsnap-extension`
 
-5. ✅ **Done!** The LeadSnap icon appears in your toolbar
+5.  **Done!** The LeadSnap icon appears in your toolbar
 
-> 💡 **Pin it**: Click the puzzle piece icon in Chrome toolbar → pin LeadSnap so it's always visible
+>  **Pin it**: Click the puzzle piece icon in Chrome toolbar → pin LeadSnap so it's always visible
 
 ---
 
-## 🎯 How to Use
+##  How to Use
 
 1. Open **Google Maps** in Chrome
 2. Search for and open any **business page** (restaurant, salon, etc.)
@@ -54,7 +54,7 @@ leadsnap-extension/
 
 ---
 
-## 📤 Export Options
+##  Export Options
 
 | Format | Use For |
 |--------|---------|
@@ -63,7 +63,7 @@ leadsnap-extension/
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 - **React 18** (via CDN) — popup UI
 - **Tailwind CSS** (via CDN) — styling
@@ -73,7 +73,7 @@ leadsnap-extension/
 
 ---
 
-## 🛠 Troubleshooting
+##  Troubleshooting
 
 | Issue | Fix |
 |-------|-----|
@@ -83,7 +83,7 @@ leadsnap-extension/
 
 ---
 
-## 📋 Data Captured
+##  Data Captured
 
 - Business Name
 - Phone Number  
