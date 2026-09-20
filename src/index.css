@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 420px;
+  min-height: 580px;
+  max-height: 600px;
+  overflow: hidden;
+  background: #0a0a0a;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #141414; }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #555; }
+
+/* Input focus glow */
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  box-shadow: 0 0 0 1.5px #c8ff00;
+}
+
+/* Custom checkbox */
+input[type="checkbox"] {
+  accent-color: #c8ff00;
+}
+
+@layer utilities {
+  .text-shadow-lime {
+    text-shadow: 0 0 20px rgba(200, 255, 0, 0.4);
+  }
+}
